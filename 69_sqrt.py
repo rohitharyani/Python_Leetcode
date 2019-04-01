@@ -7,6 +7,7 @@ Since the return type is an integer, the decimal digits are truncated and only t
 '''
 class Solution:
 	def sqrt(self,x:int)->int:
+		#return x to the power of 0.5 
 		return int(x**0.5)
 
 def main():
