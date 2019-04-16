@@ -17,6 +17,7 @@ class Solution:
 		for row_num in range(num_row):
 			#the first and last row elements are always 1
 			row = [None for _ in  range(row_num+1)]
+			
 			row[0], row[-1] = 1, 1
 
 			#Each triangle element is equal to the sum of the elements
